@@ -1,0 +1,1 @@
+document.body.innerHTML = 'Я текст вставленный при помощи JavaScript и команды innerHTML';
