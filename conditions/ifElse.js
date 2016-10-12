@@ -1,4 +1,4 @@
-var isOpen = true;
+var isOpen = false;
 var isFree = true;
 
 if (isOpen && isFree) {

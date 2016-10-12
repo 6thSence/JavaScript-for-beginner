@@ -11,33 +11,30 @@ function goToShop(isOpen, isFree) {
     }
 };
 
-var isOpen = fasle;
+var isOpen = false;
 var isFree = true;
 
-goToShop(isOpent, isFree); // Не идем в магазин. :(
-goToShop(isOpent, isFree); // Не идем в магазин. :(
-goToShop(isOpent, isFree); // Не идем в магазин. :(
-goToShop(isOpent, isFree); // Не идем в магазин. :(
+goToShop(isOpen, isFree); // Не идем в магазин. :(
+goToShop(isOpen, isFree); // Не идем в магазин. :(
+goToShop(isOpen, isFree); // Не идем в магазин. :(
+goToShop(isOpen, isFree); // Не идем в магазин. :(
 
 var isOpen = true; // Магазин открылся.
 
-goToShop(isOpent, isFree); // Идем в магазин!
-
+goToShop(isOpen, isFree); // Идем в магазин!
 
 // Можно описывать функции и без аргументов
 
 function sayHello() {
-    console.log('Hello!')
+    console.log('Hello!');
 };
-
 
 // Как правило фунции возвращают результат от проделанной работы при помощи команды return.
 
 function sumMyMoney(card, cash) {
     var sum = card + cash;
-    return cash;
+    return sum;
 };
-
 
 sumMyMoney(100, 200); // Вернет значение 300.
 

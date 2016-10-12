@@ -10,7 +10,6 @@ var sayHello = function() {
     console.log('hello');
 };
 
-
 // IIFE. Immediately-invoked function expression
 // Чаще - анонимные самовызывающиеся функции.
 (function() {
