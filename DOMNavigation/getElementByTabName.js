@@ -1,0 +1,1 @@
+var titles = tableElem.getElementsByTagName('h1'); // Ищем элементы с тегом <h1>
