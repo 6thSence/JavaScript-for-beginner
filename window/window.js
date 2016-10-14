@@ -1,1 +1,1 @@
-window.open('http://google.ru ');
+window.open('http://google.ru');

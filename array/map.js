@@ -1,3 +1,5 @@
-/**
- * Created by d.pushkarskaya on 14.10.16.
- */
+var shop = ['car', 'cat', 'tomato'];
+
+var newShop = shop.map(function(item) { // item-ом будет являться кажды последующий элемент массива от первого до последнего
+    return item + '!'; // map вернет новый массив, изменив каждый жлемент последовательно
+});

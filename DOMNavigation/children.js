@@ -1,7 +1,7 @@
-var childrens = document.childNodes; // childNodes хранит все дочернии элементы, включая текст
+var childrens = document.body.childNodes; // childNodes хранит все дочернии элементы, включая текст
 
 var firstChild = childrens[0];
 
-document.firstChild; // Обращение к первому элементу
+firstChild = document.body.firstChild; // Обращение к первому элементу
 
-document.lastChild; // Обращение к последнему элементу
+var lastChild = document.body.lastChild; // Обращение к последнему элементу

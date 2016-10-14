@@ -18,7 +18,7 @@
 
 // События документа:
 //
-//     DOMContentLoaded – когда HTML загружен и обработан, DOM документа полностью построен и доступен.
+// DOMContentLoaded – когда HTML загружен и обработан, DOM документа полностью построен и доступен.
 
 // События CSS:
 //
@@ -31,17 +31,16 @@ title.onclick = function() {
     console.log('click!');
 };
 
-
 var _sayHay = function() {
     console.log('click!');
 };
 
 title.onclick = _sayHay;
 
-
 title.addEventListener('click' , _sayHay); // Добавление обработчика событий
 
 title.removeEventListener('click' , _sayHay); // Удаление обработчика событий
 
-
-
+setTimeout(function() {
+    title.removeEventListener('click' , _sayHay);
+}, 5000);

@@ -2,7 +2,7 @@ var title = document.getElementById('title');
 
 title.hasAttribute('name'); // Проверяет наличие атрибута
 
-title.getAttribute('name'); // Получает значение атрибута
+var name = title.getAttribute('name'); // Получает значение атрибута
 
 title.setAttribute('name', 'new-name-title'); // Устанавливает новое значение атрибута
 

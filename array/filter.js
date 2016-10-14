@@ -1,6 +1,8 @@
-var shop = ['car', 'cat', 'tomato'];
+var shop = ['tomato', 'carrot', 'cat', 'tomato'];
 
-var newShop = shop.map(function(item) { // item-ом будет являться кажды последующий элемент массива от первого до последнего
-    return item + '!'; // map вернет новый массив, изменив каждый жлемент последовательно
-});
+// filter возвращает новый массив, который состоит из елементов подходящие условию
+var shopOfTomato = shop.filter(function(item) {
+    return item === 'tomato'; // условие, которое должно выполниться, чтобы елемент попал в новый массив
+})
+
 

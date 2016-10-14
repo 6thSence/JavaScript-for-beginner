@@ -9,4 +9,5 @@ var shop = {
 for (var key in shop) { // Проход по каждому елементу последовательно
     console.log(key);  // Key будет являться ключем элемента
     console.log(shop[key]); // shop[key] будет являться значением элемента
+    console.log(key + ': ' + shop[key]);
 };
