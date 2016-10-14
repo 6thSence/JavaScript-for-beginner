@@ -1,4 +1,5 @@
 // Всегда можно узнать тип переменной используя команду typeof
+// Всего существует 6 типов данных: Number, String, Object, Undefined и Null
 
 typeof 'String';
 
