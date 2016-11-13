@@ -1,6 +1,6 @@
 var title = document.getElementById('classList');
 
-title.classList.contain('main-title'); // Проверка, содержит ли элемент данный класс
+title.classList.contains('main-title'); // Проверка, содержит ли элемент данный класс
 
 title.classList.add('main-title_red'); // Добавляет класс
 
